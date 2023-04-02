@@ -102,6 +102,7 @@ main {
   display: flex;
   flex-direction: row;
   height: 6vw;
+  justify-content: space-between;
   margin: 0 auto;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
@@ -114,6 +115,7 @@ main {
 .select__item {
   background-color: red;
   font-size: 2vw;
+  padding: 2vw;
 }
 .select__item0 {
   background-color: green;

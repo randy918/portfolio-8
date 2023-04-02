@@ -178,7 +178,7 @@ main {
         display: flex;
         flex-direction: row;
         height: 6vw;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
         padding-left: 1.5vw;
         padding-right: 1.5vw;
@@ -192,7 +192,6 @@ main {
     &item {
         background-color: red;
         font-size: 2vw;
-        padding: 2vw;
     }
 
     &item0 {

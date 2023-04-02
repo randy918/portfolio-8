@@ -222,40 +222,24 @@ main {
 
     &container {
         color: getColor(grey400);
+
         background-color: var(--background-color--cell);
         border-radius: var(--border-radius);
         margin: 0 auto;
         margin-top: 2.5vw;
-        margin-bottom: 3vw;
         padding-top: 1.5vw;
-        padding-bottom: 1.5vw;
         width: 79vw;
 
-        display: grid;
-       
-
 
 
     }
 
-    &item {
-
-display: flex;
-        background-color: getColor(grey1000);
-
-margin-left: 1.5vw;
-margin-right: 1.5vw;
-
-
-    }
+    &item {}
 
 }
 
 
-//!  40223.1252         PIECE ENDS
-
-
-//!  40223.1252         FOOTER BEGINS
+//!  40223.1252         PORTFOLIO ENDS
 
 
 footer {
@@ -274,5 +258,3 @@ footer {
     width: var(--width-max);
 
 }
-
-//!  40223.1252         IT ALL ENDS

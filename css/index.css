@@ -138,9 +138,19 @@ main {
   border-radius: var(--border-radius);
   margin: 0 auto;
   margin-top: 2.5vw;
+  margin-bottom: 3vw;
   padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
   width: 79vw;
+  display: grid;
 }
+.piece__item {
+  display: flex;
+  background-color: rgb(24, 24, 24);
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
 footer {
   display: flex;
   color: rgb(170, 170, 170);

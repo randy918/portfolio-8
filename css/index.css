@@ -113,6 +113,7 @@ main {
 }
 .select__item {
   background-color: red;
+  font-size: 2vw;
 }
 .select__item0 {
   background-color: green;

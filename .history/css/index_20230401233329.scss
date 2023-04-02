@@ -196,7 +196,6 @@ main {
 
     &item {
 
-        display: flex;
         background-color:getColor(grey1000);
         color: getColor(grey400);
         font-size: 2vw;
@@ -206,7 +205,7 @@ main {
         height: 45%;
         border-radius: calc(var(--border-radius) * .5);
         flex-grow: 1;
-        justify-content: center;
+        
 
     }
 

@@ -115,6 +115,7 @@ main {
   font-family: "Fira Sans", sans-serif;
 }
 .select__item {
+  display: flex;
   background-color: rgb(24, 24, 24);
   color: rgb(170, 170, 170);
   font-size: 2vw;
@@ -124,6 +125,7 @@ main {
   height: 45%;
   border-radius: calc(var(--border-radius) * 0.5);
   flex-grow: 1;
+  justify-content: center;
 }
 .select__item0 {
   background-color: rgb(24, 24, 24);

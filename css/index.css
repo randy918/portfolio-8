@@ -101,24 +101,33 @@ main {
   border-radius: var(--border-radius);
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 6vw;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
-  padding-bottom: 1.5vw;
-  margin-top: 3vw;
+  justify-content: center;
   margin-bottom: 3vw;
+  margin-top: 3vw;
+  margin: 0 auto;
+  padding-bottom: 1.5vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   padding-top: 1.5vw;
-  width: 76vw;
+  width: 78vw;
+  font-family: "Fira Sans", sans-serif;
 }
 .select__item {
-  background-color: red;
+  background-color: rgb(24, 24, 24);
+  color: rgb(170, 170, 170);
   font-size: 2vw;
   padding: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: 45%;
+  border-radius: calc(var(--border-radius) * 0.5);
+  flex-grow: 1;
 }
 .select__item0 {
-  background-color: green;
+  background-color: rgb(24, 24, 24);
+  flex-grow: 7;
 }
 
 footer {

@@ -66,8 +66,6 @@ $colors: (bg: rgba(55, 66, 76, 1),
     dl,
     dd {
         margin: 0;
-        font-family: "Fira Sans",
-            sans-serif;
     }
 }
 
@@ -191,12 +189,14 @@ main {
         padding-right: .5vw;
         padding-top: 1.5vw;
         width: 78vw;
-        color: getColor(grey400);
+        font-family: "Fira Sans",
+            sans-serif;
     }
 
     &item {
         display: flex;
         background-color: getColor(grey1000);
+        color: getColor(grey400);
         font-size: 2vw;
         padding: 2vw;
         margin-left: 1vw;
@@ -220,21 +220,17 @@ main {
 
 .piece__ {
 
-    &container {
-        color: getColor(grey400);
+& {
 
-        background-color: var(--background-color--cell);
-        border-radius: var(--border-radius);
-        margin: 0 auto;
-        margin-top: 2.5vw;
-        padding-top: 1.5vw;
-        width: 79vw;
+
+    
+}
+
+&item {
 
 
 
-    }
-
-    &item {}
+}
 
 }
 

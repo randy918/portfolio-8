@@ -39,6 +39,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 nav {
   display: flex;
   color: rgb(170, 170, 170);

@@ -1,14 +1,6 @@
-//todo    Version 40423.0920
-//todo    
 //todo   function a(toAlert)
 //todo   function c(toConsole)
-//todo   function cb(toConsole)
-//todo   function ce(toConsole)
-//todo   function cg(toConsole)
-//todo   function co(toConsole)
 //todo   function cr(toConsole)
-//todo   function cv(toConsole)
-//todo   function cw(toConsole)
 //todo   function r(min, max)  Random integers, can be just 'max'
 //todo   function getTime()--works! it is 72519.1414 format
 //todo   function getCompleteDate()
@@ -43,33 +35,11 @@ function a(toAlert) {
 function c(toConsole) {
 	console.log(toConsole);
 }
-
-function cb(toConsole) {
-	var styles = [
-		// 'font-size: 30px',
-		"color: blue",
-	].join(";");
-	console.log(`%c` + toConsole, styles);
+function cw(toConsole) {
+	console.warn(toConsole);
+    function ce(toConsole) {
 }
-
-function ce(toConsole) {
 	console.error(toConsole);
-}
-
-function cg(toConsole) {
-	var styles = [
-		// 'font-size: 30px',
-		"color: green",
-	].join(";");
-	console.log(`%c` + toConsole, styles);
-}
-
-function co(toConsole) {
-	var styles = [
-		// 'font-size: 30px',
-		"color: orange",
-	].join(";");
-	console.log(`%c` + toConsole, styles);
 }
 
 function cr(toConsole) {
@@ -79,17 +49,34 @@ function cr(toConsole) {
 	].join(";");
 	console.log(`%c` + toConsole, styles);
 }
+function co(toConsole) {
+	var styles = [
+		// 'font-size: 30px',
+		"color: orange",
+	].join(";");
+	console.log(`%c` + toConsole, styles);
+}
+function cg(toConsole) {
+	var styles = [
+		// 'font-size: 30px',
+		"color: green",
+	].join(";");
+	console.log(`%c` + toConsole, styles);
+}
 
+function cb(toConsole) {
+	var styles = [
+		// 'font-size: 30px',
+		"color: blue",
+	].join(";");
+	console.log(`%c` + toConsole, styles);
+}
 function cv(toConsole) {
 	var styles = [
 		// 'font-size: 30px',
 		"color: violet",
 	].join(";");
 	console.log(`%c` + toConsole, styles);
-}
-
-function cw(toConsole) {
-	console.warn(toConsole);
 }
 
 function r(min, max) {

@@ -1,6 +1,6 @@
 co("javascript testing OK")
 
-cr(`This is ${getCompleteDate()}`)
+cr('This is ')
 
 const main = function () {
 		new Swiper("#swiper-1", {
@@ -15,8 +15,5 @@ const main = function () {
 			lazyloading: true,
 			loop: true,
 		});
-
-
-        
 	};
   main();

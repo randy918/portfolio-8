@@ -2,12 +2,11 @@
 //todo    
 //todo   function a(toAlert)
 //todo   function c(toConsole)
-//todo   function cb(toConsole)
+//todo   function ceb(toConsole)
 //todo   function ce(toConsole)
 //todo   function cg(toConsole)
 //todo   function co(toConsole)
 //todo   function cr(toConsole)
-//todo   function cv(toConsole)
 //todo   function cw(toConsole)
 //todo   function r(min, max)  Random integers, can be just 'max'
 //todo   function getTime()--works! it is 72519.1414 format
@@ -80,16 +79,22 @@ function cr(toConsole) {
 	console.log(`%c` + toConsole, styles);
 }
 
+function cw(toConsole) {
+	console.warn(toConsole);
+}
+
+
+
+
+
+
+
 function cv(toConsole) {
 	var styles = [
 		// 'font-size: 30px',
 		"color: violet",
 	].join(";");
 	console.log(`%c` + toConsole, styles);
-}
-
-function cw(toConsole) {
-	console.warn(toConsole);
 }
 
 function r(min, max) {

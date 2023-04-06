@@ -15,8 +15,5 @@ const main = function () {
 			lazyloading: true,
 			loop: true,
 		});
-
-
-        
 	};
   main();

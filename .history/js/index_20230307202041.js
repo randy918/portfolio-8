@@ -1,7 +1,5 @@
 co("javascript testing OK")
 
-cr(`This is ${getCompleteDate()}`)
-
 const main = function () {
 		new Swiper("#swiper-1", {
 			effect: "cube", // delete for sideways motion, use fade
@@ -15,8 +13,5 @@ const main = function () {
 			lazyloading: true,
 			loop: true,
 		});
-
-
-        
 	};
   main();

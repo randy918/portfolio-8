@@ -93,20 +93,9 @@ svg {
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
-
-    &:hover .st1 {
-stroke-dashoffset: 0;
-    }
+    margin
 
 }
-
-.st1 {
-stroke-dasharray: 6000px;
-stroke-dashoffset: 6000px;
-transition: 10s all;
-}
-
 
 nav {
     display: flex;

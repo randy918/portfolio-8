@@ -39,10 +39,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.st1 {
-  stroke-dasharray: 6000px;
-  stroke-dashoffset: 6000px;
-  transition: 10s all;
+svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 nav {
@@ -135,9 +135,7 @@ main {
 }
 .select__item0 {
   background-color: rgb(24, 24, 24);
-  flex-grow: 4;
-  padding-left: 0;
-  padding-right: 0;
+  flex-grow: 7;
   padding-top: 0vw;
   padding-bottom: 0vw;
   height: 110%;
@@ -183,4 +181,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20230405205026.css.map */

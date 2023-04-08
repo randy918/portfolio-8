@@ -126,7 +126,7 @@ main {
   background-color: rgb(24, 24, 24);
   font-size: 2vw;
   padding: 2vw;
-  margin-left: 1vw;
+  margin-right: 1vw;
   margin-right: 1vw;
   height: 45%;
   border-radius: calc(var(--border-radius) * 0.5);
@@ -183,4 +183,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20230406205727.css.map */

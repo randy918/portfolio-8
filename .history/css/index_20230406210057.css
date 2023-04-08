@@ -140,7 +140,7 @@ main {
   padding-right: 0;
   padding-top: 0vw;
   padding-bottom: 0vw;
-  height: 110%;
+  heightheight: 110%;
 }
 
 .piece__container {
@@ -183,4 +183,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20230406210057.css.map */

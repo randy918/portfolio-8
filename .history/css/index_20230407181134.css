@@ -136,12 +136,11 @@ main {
 .select__item0 {
   background-color: rgb(24, 24, 24);
   flex-grow: 4;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
-  width: 20vw;
-  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+  height: 110%;
 }
 
 .piece__container {
@@ -184,4 +183,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20230407181134.css.map */

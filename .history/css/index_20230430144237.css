@@ -170,12 +170,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-.piece__item0 {
-  background-color: red;
-}
-.piece__item0a {
-  background-color: yellow;
-}
 
 footer {
   display: flex;
@@ -190,4 +184,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index_20230430144237.css.map */

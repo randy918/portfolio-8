@@ -258,21 +258,19 @@ main {
         grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 1.5vw;
         grid-column-gap: 1.5vw;
+
     }
 
     &item {
+
         display: grid;
         background-color: getColor(grey1000);
         padding: 2vw;
         align-items: center;
         justify-content: center;
 
-        &0 {
 
-        }
 
-      
-        }
 
     }
 

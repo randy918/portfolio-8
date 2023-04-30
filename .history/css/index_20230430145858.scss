@@ -86,16 +86,12 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-svg {
-
-
-
-}
+svg {}
 
 .st1 {
-stroke-dasharray: 6000px;
-stroke-dashoffset: 6000px;
-transition: 10s all;
+    stroke-dasharray: 6000px;
+    stroke-dashoffset: 6000px;
+    transition: 10s all;
 }
 
 
@@ -221,13 +217,13 @@ main {
     &item0 {
         background-color: getColor(grey1000);
         flex-grow: 4;
-        padding-left:2vw;
-        padding-right:2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
         padding-top: .5vw;
         padding-bottom: .5vw;
         width: 20vw;
         height: 100%;
-        
+
 
 
     }
@@ -263,21 +259,25 @@ main {
     &item {
         display: grid;
         background-color: getColor(grey1000);
-        padding: 2vw;
+        padding: vw;
         align-items: center;
         justify-content: center;
 
         &0 {
 
-        }
+            background-color: red;
 
-      
+
+            &a {
+
+                background-color: blue;
+                📘
+            }
+
         }
 
     }
-
 }
-
 
 //!  40223.1252         PIECE ENDS
 

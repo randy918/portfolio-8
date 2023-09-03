@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+:root {
+  --border-radius: 0.5rem;
+  --width-max: 75vw;
+  --background-color: rgb(24, 24, 24);
+  --background-color--cell: rgb(33, 33, 33);
+  --type-color-one: rgb(61, 61, 61);
+}
+
+* *::before,
+* *::after {
+  box-sizing: border-box;
+  border: none;
+}
+
+* body,
+* h1,
+* h2,
+* h3,
+* h4,
+* p,
+* figure,
+* blockquote,
+* dl,
+* dd {
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  margin-top: 6vw;
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--type-color-one);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.st1 {
+  stroke-dasharray: 6000px;
+  stroke-dashoffset: 6000px;
+  transition: 10s all;
+}
+
+nav {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}
+
+header {
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  width: 79vw;
+  background-size: cover;
+}
+
+.swiper {
+  height: 24vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  background-color: var(--background-color--cell);
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  width: 79vw;
+  border-radius: var(--border-radius);
+}
+
+#swiper-1 .swiper-pagination {
+  bottom: 1vw;
+}
+
+#swiper-1 .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: white;
+}
+
+#swiper-1 .swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: red;
+}
+
+main {
+  display: block;
+  margin-top: 3vw;
+}
+
+.select__container {
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 6vw;
+  justify-content: center;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  margin: 0 auto;
+  padding-bottom: 1.5vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 1.5vw;
+  width: 78vw;
+  color: rgb(170, 170, 170);
+}
+
+.select__item {
+  display: flex;
+  background-color: rgb(24, 24, 24);
+  font-size: 2vw;
+  padding: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  height: 45%;
+  border-radius: calc(var(--border-radius) * 0.5);
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.select__item0 {
+  background-color: rgb(24, 24, 24);
+  flex-grow: 4;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  width: 20vw;
+  height: 100%;
+}
+
+.piece__container {
+  color: rgb(170, 170, 170);
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  width: 76vw;
+  margin-left: 10.5vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  display: grid;
+  grid-template-rows: repeat(4, 20vw);
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1.5vw;
+  grid-column-gap: 1.5vw;
+}
+
+.piece__item {
+  display: grid;
+  background-color: rgb(24, 24, 24);
+  padding: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.piece__item0 {
+  background-color: red;
+}
+
+.piece__item1 {
+  background-color: yellow;
+}
+
+.piece__item2 {
+  background-color: blue;
+}
+
+.piece__item3 {
+  background-color: green;
+}
+
+.piece__item4 {
+  background-color: red;
+}
+
+.piece__item5 {
+  background-color: yellow;
+}
+
+.piece__item6 {
+  background-color: blue;
+}
+
+.piece__item7 {
+  background-color: green;
+}
+
+.piece__item8 {
+  background-color: purple;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.piece__item9 {
+  background-color: brown;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.piece__item10 {
+  background-color: olive;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.piece__item10 {
+  background-color: olive;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+footer {
+  display: flex;
+  color: rgb(170, 170, 170);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
+  margin-bottom: 6vw;
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+} /*# sourceMappingURL=index_20230430184212.css.map */

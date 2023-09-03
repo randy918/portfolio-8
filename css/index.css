@@ -227,7 +227,7 @@ main {
   background-color: orange;
   grid-column: 1/2;
   grid-row: 1/2;
-  transition: background-color 300ms linear;
+  transition: 500ms;
 }
 
 .piece__item211:hover {

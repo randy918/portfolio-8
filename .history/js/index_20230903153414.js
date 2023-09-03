@@ -6,7 +6,7 @@ const main = function () {
   new Swiper("#swiper-1", {
     effect: "cube", // delete for sideways motion, use fade
     autoplay: {
-      delay: 66500,
+      delay: 60,
     },
     pagination: {
       el: "#swiper-1 .swiper-pagination",

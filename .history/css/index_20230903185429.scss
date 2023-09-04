@@ -21,6 +21,7 @@
   border: none;
 }
 * body,
+* form, 
 * h1,
 * h2,
 * h3,
@@ -40,11 +41,6 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-700);
-  color: var(--type-color-one);
-} 
-
-h2 {
   font-size: var(--font-size-400);
   color: var(--type-color-one);
 } 

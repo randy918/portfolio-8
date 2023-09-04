@@ -9,7 +9,7 @@
   --type-color-one: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
 
-  --font-size-400: 1rem;
+  --font-size-400: 11rem;
   --font-size-700: 1.25rem;
   --font-size-900: 1.5rem;
   --font-size-ultra:3.25rem;
@@ -40,11 +40,6 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-700);
-  color: var(--type-color-one);
-} 
-
-h2 {
   font-size: var(--font-size-400);
   color: var(--type-color-one);
 } 

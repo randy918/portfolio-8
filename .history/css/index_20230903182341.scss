@@ -40,12 +40,6 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-700);
-  color: var(--type-color-one);
-} 
-
-h2 {
-  font-size: var(--font-size-400);
   color: var(--type-color-one);
 } 
 
@@ -160,6 +154,7 @@ main {
 
 .piece__ {
   &container {
+    color: rgb(170, 170, 170);
     background-color: var(--background-color--cell);
     border-radius: var(--border-radius);
     margin: 0 auto;
@@ -290,7 +285,7 @@ main {
 
 footer {
   display: flex;
-  color: var(--type-color-one);
+  color: rgb(170, 170, 170);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);

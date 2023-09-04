@@ -32,6 +32,7 @@
 * dd {
   margin: 0;
   font-family: "Fira Sans", sans-serif;
+  display: block;
 }
 
 body {
@@ -51,12 +52,6 @@ h2 {
 
 body::-webkit-scrollbar {
   display: none;
-}
-
-.theme-picker {
-
-
-
 }
 
 .visually-hidden {

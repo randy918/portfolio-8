@@ -12,7 +12,7 @@
   --font-size-400: 1rem;
   --font-size-700: 1.25rem;
   --font-size-900: 1.5rem;
-  --font-size-ultra:3.25rem;
+  --font-size-ultra: 3.25rem;
 }
 
 * *::before,
@@ -30,7 +30,8 @@
 * blockquote,
 * dl,
 * dd {
-  margin: 0;
+  margin: 0;  margin-inline: auto;
+
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -42,31 +43,29 @@ body {
 h1 {
   font-size: var(--font-size-700);
   color: var(--type-color-one);
-} 
+}
 
 h2 {
   font-size: var(--font-size-400);
   color: var(--type-color-one);
-} 
+}
 
 body::-webkit-scrollbar {
   display: none;
 }
 
 .theme-picker {
-
-
-
+  margin-inline: auto;
 }
 
 .visually-hidden {
-clip: rect(0, 0, 0, 0);
-clip-path: inset(50%);
-height: 1px;
-overflow: hidden;
-position: absolute;
-white-space: nowrap;
-width: 1px;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .st1 {

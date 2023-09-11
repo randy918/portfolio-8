@@ -51,6 +51,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.theme-picker > fieldset {
+  border: 0;
+  display: flex;
+  gap: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .visually-hidden {
   clip: rect(0, 0, 0, 0);
   -webkit-clip-path: inset(50%);
@@ -75,11 +83,22 @@ nav {
   font-weight: 700;
   font-size: var(--font-size-ultra);
   padding: 2vw;
+  padding-bottom: 0vw;
   margin: 0 auto;
-  margin-top: 2.5vw;
+  margin-top: 4.5vw;
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
+}
+
+.division-container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 3.5fr repeat(2, 2fr);
+  grid-template-rows: 1fr;
+  gap: 0px 16px;
+  width: 100%;
+  height: 100%;
 }
 
 header {

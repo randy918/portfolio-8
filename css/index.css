@@ -92,8 +92,12 @@ nav {
 
 .nav2 {
   display: flex;
-  justify-content: center;
+  justify-content: begin;
+  gap: var(--gap);
+  align-items: flex-start;
+  flex-direction: row;
   color: var(--type-color-one);
+  background-color: var(--background-color--cell);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
@@ -102,24 +106,33 @@ nav {
   padding-right: var(--gap);
   margin: 0 auto;
   margin-top: var(--gap);
-  background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
 }
 .nav2__item {
   display: flex;
+  flex-wrap: nowrap;
   background-color: red;
 }
 .nav2__item--11 {
   display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
   background-color: green;
 }
 .nav2__item--12 {
   display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
   background-color: yellow;
 }
 .nav2__item--13 {
   display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
   background-color: blue;
 }
 

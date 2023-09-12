@@ -111,7 +111,6 @@ nav {
   //! CRITICAL FLEX BOX PARAMETERS Ideal
   display: flex;
   justify-content: begin;
-  gap: var(--gap);
   //! (horizontal) flex-start flex-end center space-between space-around space-evenly
   align-items: flex-start;
  //! (vertical) flex-start flex-end center space-between space-around space-evenly
@@ -145,27 +144,26 @@ nav {
       flex-grow: 1;
       //! flex-basis: 0; to adjust starting size before flex-grow
 
-      // height: 3rem;
+      height: 3rem;
       background-color: green;
     }
 
     &--12 {
       display: flex;
-    flex-wrap: nowrap;
       align-self: flex-start;
       flex-grow: 1;
+         
 
-      // height: 5rem;
+      height: 5rem;
       background-color: yellow;
     }
 
     &--13 {
       display: flex;
-    flex-wrap: nowrap;
       align-self: flex-start;
       flex-grow: 1;
 
-      // height: 7rem;
+      height: 7rem;
       background-color: blue;
     }
   }

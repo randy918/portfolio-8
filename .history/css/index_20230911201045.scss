@@ -105,21 +105,14 @@ nav {
   width: var(--width-max);
 }
 
-//! NAV2 is a fully explained Flex module 9-11-23-2029 
-
 .nav2 {
   //! CRITICAL FLEX BOX PARAMETERS Ideal
   display: flex;
   justify-content: begin;
-  gap: var(--gap);
-  //! (horizontal) flex-start flex-end center space-between space-around space-evenly
-  align-items: flex-start;
- //! (vertical) flex-start flex-end center space-between space-around space-evenly
- flex-direction: row;
- //! row(default) row-reverse column column-reverse
-  color: var(--type-color-one);
-  background-color: var(--background-color--cell);
+  //! (horizontal) begin end center space-between space-around space-evenly
+  align-items: stretch;
 
+  color: var(--type-color-one);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
@@ -129,43 +122,27 @@ nav {
   padding-right: var(--gap);
   margin: 0 auto;
   margin-top: var(--gap);
-
+  background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
 
   &__item {
     display: flex;
-    flex-wrap: nowrap;
     background-color: red;
 
     &--11 {
       display: flex;
-    flex-wrap: nowrap;
-      align-self: flex-start;
-      flex-grow: 1;
-      //! flex-basis: 0; to adjust starting size before flex-grow
-
-      // height: 3rem;
+      height: 3rem;
       background-color: green;
     }
 
     &--12 {
       display: flex;
-    flex-wrap: nowrap;
-      align-self: flex-start;
-      flex-grow: 1;
-
-      // height: 5rem;
       background-color: yellow;
     }
 
     &--13 {
       display: flex;
-    flex-wrap: nowrap;
-      align-self: flex-start;
-      flex-grow: 1;
-
-      // height: 7rem;
       background-color: blue;
     }
   }

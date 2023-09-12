@@ -141,11 +141,10 @@ nav {
     &--11 {
       display: flex;
     flex-wrap: nowrap;
-      align-self: flex-start;
+      align-self: stretch;
       flex-grow: 1;
       //! flex-basis: 0; to adjust starting size before flex-grow
 
-      // height: 3rem;
       background-color: green;
     }
 
@@ -155,7 +154,7 @@ nav {
       align-self: flex-start;
       flex-grow: 1;
 
-      // height: 5rem;
+      height: 5rem;
       background-color: yellow;
     }
 
@@ -165,7 +164,7 @@ nav {
       align-self: flex-start;
       flex-grow: 1;
 
-      // height: 7rem;
+      height: 7rem;
       background-color: blue;
     }
   }

@@ -4,12 +4,13 @@
   --width-max: 75vw;
   --background-color: rgb(24, 24, 24);
   --background-color--cell: rgb(33, 33, 33);
+  --gap: 2rem;
   --type-color-one: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
   --font-size-400: 1rem;
   --font-size-700: 1.25rem;
   --font-size-900: 1.5rem;
-  --font-size-ultra:3.25rem;
+  --font-size-ultra: 3.25rem;
 }
 
 * *::before,
@@ -82,13 +83,48 @@ nav {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
-  padding: 2vw;
-  padding-bottom: 0vw;
+  padding: var(--gap);
   margin: 0 auto;
-  margin-top: 4.5vw;
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  color: var(--type-color-one);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: var(--font-size-ultra);
+  padding: var(--gap);
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  margin: 0 auto;
+  margin-top: var(--gap);
+  background-color: var(--background-color--cell);
+  border-radius: var(--border-radius);
+  width: var(--width-max);
+}
+.nav2__item {
+  display: flex;
+  background-color: red;
+}
+.nav2__item--11 {
+  display: flex;
+  background-color: green;
+}
+.nav2__item--12 {
+  display: flex;
+  background-color: yellow;
+}
+.nav2__item--13 {
+  display: flex;
+  background-color: blue;
+}
+
+.nav2__item12 {
+  background-color: blue;
 }
 
 .division-container {

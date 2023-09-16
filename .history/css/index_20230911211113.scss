@@ -131,7 +131,7 @@ nav {
   margin-top: var(--gap);
 
   border-radius: var(--border-radius);
-  width: calc(var(--width-max) + 3.5rem);
+  width: var(--width-max);
 
   &__item {
     display: flex;

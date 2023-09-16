@@ -124,14 +124,14 @@ nav {
   font-weight: 700;
   font-size: var(--font-size-ultra);
   
-  padding: calc(var(--gap) * 0);
-  padding-left: calc(var(--gap) * 0);
-  padding-right: calc(var(--gap) * 0);
+  padding: calc(var(--gap) * 0;
+  padding-left: var(--gap);
+  padding-right: var(--gap);
   margin: 0 auto;
   margin-top: var(--gap);
 
   border-radius: var(--border-radius);
-  width: calc(var(--width-max) + 3.5rem);
+  width: var(--width-max);
 
   &__item {
     display: flex;

@@ -9,6 +9,7 @@
   --background-color--cell: rgb(33, 33, 33);
 
   --gap: 2rem;
+  --gap-big: 3rem;
 
   --type-color-one: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
@@ -43,7 +44,7 @@
 //! BASIC
 
 body {
-  margin-top: 6vw;
+  margin-top: var(--gap-big);
   background-color: var(--background-color);
 }
 
@@ -105,7 +106,7 @@ nav {
   width: var(--width-max);
 }
 
-//! NAV2 is a fully explained Flex module 9-11-23-2029 
+//! NAV2 is a fully explained Flex module 9-11-23-2029
 
 .nav2 {
   //! CRITICAL FLEX BOX PARAMETERS Ideal
@@ -114,16 +115,16 @@ nav {
   gap: var(--gap);
   //! (horizontal) flex-start flex-end center space-between space-around space-evenly
   align-items: flex-start;
- //! (vertical) flex-start flex-end center space-between space-around space-evenly
- flex-direction: row;
- //! row(default) row-reverse column column-reverse
+  //! (vertical) flex-start flex-end center space-between space-around space-evenly
+  flex-direction: row;
+  //! row(default) row-reverse column column-reverse
   color: var(--type-color-one);
   background-color: var(--background-color--cell);
 
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
-  
+
   padding: calc(var(--gap) * 0);
   padding-left: calc(var(--gap) * 0);
   padding-right: calc(var(--gap) * 0);
@@ -140,7 +141,7 @@ nav {
 
     &--11 {
       display: flex;
-    flex-wrap: nowrap;
+      flex-wrap: nowrap;
       align-self: flex-start;
       flex-grow: 1;
       //! flex-basis: 0; to adjust starting size before flex-grow
@@ -151,7 +152,7 @@ nav {
 
     &--12 {
       display: flex;
-    flex-wrap: nowrap;
+      flex-wrap: nowrap;
       align-self: flex-start;
       flex-grow: 1;
 
@@ -161,7 +162,7 @@ nav {
 
     &--13 {
       display: flex;
-    flex-wrap: nowrap;
+      flex-wrap: nowrap;
       align-self: flex-start;
       flex-grow: 1;
 
@@ -178,6 +179,79 @@ nav {
 }
 .nav2__item12 {
   background-color: blue;
+}
+
+.nav3 {
+  //! CRITICAL FLEX BOX PARAMETERS Ideal
+  display: flex;
+  justify-content: begin;
+  gap: var(--gap);
+  //! (horizontal) flex-start flex-end center space-between space-around space-evenly
+  align-items: flex-start;
+  //! (vertical) flex-start flex-end center space-between space-around space-evenly
+  flex-direction: row;
+  //! row(default) row-reverse column column-reverse
+  color: var(--type-color-one);
+  background-color: var(--background-color--cell);
+
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: var(--font-size-ultra);
+
+  padding: calc(var(--gap) * 0);
+  padding-left: calc(var(--gap) * 0);
+  padding-right: calc(var(--gap) * 0);
+  margin: 0 auto;
+  margin-top: var(--gap);
+
+  border-radius: var(--border-radius);
+  width: calc(var(--width-max) + 3.5rem);
+
+  &__item {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: red;
+
+    &--11 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+      //! flex-basis: 0; to adjust starting size before flex-grow
+
+      // height: 3rem;
+      background-color: green;
+    }
+
+    &--12 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 5rem;
+      background-color: yellow;
+    }
+
+    &--13 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 7rem;
+      background-color: green;
+    }
+  }
+}
+
+.nav3__item {
+}
+
+.nav3__item11 {
+}
+.nav3__item12 {
+  background-color: green;
 }
 
 .division-container {

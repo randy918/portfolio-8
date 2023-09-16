@@ -5,6 +5,7 @@
   --background-color: rgb(24, 24, 24);
   --background-color--cell: rgb(33, 33, 33);
   --gap: 2rem;
+  --gap-big: 3rem;
   --type-color-one: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
   --font-size-400: 1rem;
@@ -34,7 +35,7 @@
 }
 
 body {
-  margin-top: 6vw;
+  margin-top: var(--gap-big);
   background-color: var(--background-color);
 }
 
@@ -138,6 +139,56 @@ nav {
 
 .nav2__item12 {
   background-color: blue;
+}
+
+.nav3 {
+  display: flex;
+  justify-content: begin;
+  gap: var(--gap);
+  align-items: flex-start;
+  flex-direction: row;
+  color: var(--type-color-one);
+  background-color: var(--background-color--cell);
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: var(--font-size-ultra);
+  padding: calc(var(--gap) * 0);
+  padding-left: calc(var(--gap) * 0);
+  padding-right: calc(var(--gap) * 0);
+  margin: 0 auto;
+  margin-top: var(--gap);
+  border-radius: var(--border-radius);
+  width: calc(var(--width-max) + 3.5rem);
+}
+.nav3__item {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: red;
+}
+.nav3__item--11 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: green;
+}
+.nav3__item--12 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: yellow;
+}
+.nav3__item--13 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: green;
+}
+
+.nav3__item12 {
+  background-color: green;
 }
 
 .division-container {

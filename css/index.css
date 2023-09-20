@@ -13,6 +13,7 @@
   --font-size-700: 1.25rem;
   --font-size-900: 1.5rem;
   --font-size-ultra: 3.25rem;
+  --padding-top: 10rem 0 0;
 }
 
 * *::before,
@@ -48,6 +49,10 @@ h1 {
 h2 {
   font-size: var(--font-size-400);
   color: var(--type-color-one);
+}
+
+h3 {
+  font-size: var(--font-size-700);
 }
 
 p {
@@ -202,6 +207,30 @@ nav {
   background-color: green;
 }
 
+.card1 {
+  background-image: url("../images/shutterstock_80566984-LARGE.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius-small);
+  padding: var(--padding-top);
+  max-width: 35ch;
+}
+.card1__content {
+  padding: 1.5em;
+  background: linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.7) 20%, hsl(0, 0%, 0%));
+}
+.card2 {
+  background-image: url("../images/shutterstock_1227575338-LARGE.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius-small);
+  padding: var(--padding-top);
+  max-width: 35ch;
+}
+.card2__content {
+  padding: 1.5em;
+  background: linear-gradient(hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.7) 20%, hsl(0, 0%, 0%));
+}
 .division-container {
   display: grid;
   grid-auto-columns: 1fr;

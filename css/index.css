@@ -3,15 +3,15 @@
   --border-radius: 0.5rem;
   --border-radius-small: 0.25rem;
   --width-max: 75vw;
-  --background-color: rgb(24, 24, 24);
+  --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(33, 33, 33);
   --gap: 2rem;
   --gap-big: 3rem;
   --gap-small: 1rem;
-  --type-color-one: rgb(170, 170, 170);
+  --type-color-default: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
-  --font-size-400: 1rem;
-  --font-size-700: 1.25rem;
+  --font-size-small: 1rem;
+  --font-size-default: 1.25rem;
   --font-size-900: 1.5rem;
   --font-size-ultra: 3.25rem;
   --padding-top: 10rem 0 0;
@@ -39,26 +39,26 @@
 
 body {
   margin-top: var(--gap-big);
-  background-color: var(--background-color);
+  background-color: var(--background-color--default);
 }
 
 h1 {
-  font-size: var(--font-size-700);
-  color: var(--type-color-one);
+  font-size: var(--font-size-default);
+  color: var(--type-color-default);
 }
 
 h2 {
-  font-size: var(--font-size-400);
-  color: var(--type-color-one);
+  font-size: var(--font-size-small);
+  color: var(--type-color-default);
 }
 
 h3 {
-  font-size: var(--font-size-700);
+  font-size: var(--font-size-default);
 }
 
 p {
-  font-size: var(--font-size-400);
-  color: var(--type-color-one);
+  font-size: var(--font-size-small);
+  color: var(--type-color-default);
 }
 
 body::-webkit-scrollbar {
@@ -105,7 +105,7 @@ body::-webkit-scrollbar {
 
 nav {
   display: flex;
-  color: var(--type-color-one);
+  color: var(--type-color-default);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
@@ -122,7 +122,7 @@ nav {
   gap: var(--gap);
   align-items: flex-start;
   flex-direction: row;
-  color: var(--type-color-one);
+  color: var(--type-color-default);
   background-color: var(--background-color--cell);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
@@ -172,7 +172,7 @@ nav {
   gap: var(--gap-small);
   align-items: flex-start;
   flex-direction: row;
-  color: var(--type-color-one);
+  color: var(--type-color-default);
   background-color: var(--background-color--cell);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
@@ -208,6 +208,10 @@ nav {
   align-self: flex-start;
   flex-grow: 1;
   background-color: yellow;
+  background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .nav3__item--13 {
   display: flex;
@@ -215,6 +219,43 @@ nav {
   align-self: flex-start;
   flex-grow: 1;
   background-color: green;
+  background-image: url("../images/shutterstock_2272269211-LARGE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav3__item--14 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: green;
+  background-image: url("../images/shutterstock_80566984-LARGE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav3__item--15 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: green;
+  background-image: url("../images/shutterstock_400953256-LARGE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav3__item--16 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-color: green;
+  background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .nav3__item12 {
@@ -321,7 +362,7 @@ main {
 .select__item {
   display: flex;
   background-color: rgb(24, 24, 24);
-  font-size: var(--font-size-400);
+  font-size: var(--font-size-small);
   padding: 2vw;
   margin-left: 1vw;
   margin-right: 1vw;
@@ -474,7 +515,7 @@ main {
 
 footer {
   display: flex;
-  color: var(--type-color-one);
+  color: var(--type-color-default);
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);

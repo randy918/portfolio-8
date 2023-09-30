@@ -250,7 +250,7 @@ nav {
       background-size: cover;
       background-position: center;
       // //! top left 50% for example
-      // padding-top: var(--gap-big);
+      padding-top: var(--gap-big);
       // padding-bottom: var(--gap-big);
 
       border-radius: var(--border-radius-small);
@@ -267,7 +267,7 @@ nav {
       background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
             background-repeat: no-repeat;
       background-size: cover;
-      background-position: upper right;
+      background-position: center;
     }
 
     &--13 {
@@ -309,7 +309,7 @@ nav {
            background-image: url("../images/shutterstock_400953256-LARGE.jpg");
             background-repeat: no-repeat;
       background-size: cover;
-      background-position: bottom;
+      background-position: center;
       
     }
     &--16 {
@@ -323,7 +323,7 @@ nav {
            background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
             background-repeat: no-repeat;
       background-size: cover;
-      background-position: 20% 20%;
+      background-position: center;
       
     }
   }

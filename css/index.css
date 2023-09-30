@@ -4,7 +4,7 @@
   --border-radius-small: 0.25rem;
   --width-max: 75vw;
   --background-color--default: rgb(24, 24, 24);
-  --background-color--cell: rgb(33, 33, 33);
+  --background-color--cell: rgb(40, 40, 40);
   --gap: 2rem;
   --gap-big: 3rem;
   --gap-small: 1rem;
@@ -211,7 +211,7 @@ nav {
   background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: upper right;
 }
 .nav3__item--13 {
   display: flex;
@@ -244,7 +244,7 @@ nav {
   background-image: url("../images/shutterstock_400953256-LARGE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 .nav3__item--16 {
   display: flex;
@@ -255,7 +255,7 @@ nav {
   background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 20% 20%;
 }
 
 .nav3__item12 {

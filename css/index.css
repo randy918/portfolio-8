@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
   margin-inline: auto;
 }
 
-.theme-picker input[type=radio] {
+.theme-picker input[type=checkbox] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;

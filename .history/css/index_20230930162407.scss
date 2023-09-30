@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
   // border-radius: 0 0
 }
 
-.theme-picker input[type="checkbox"] {
+.theme-picker input[type="radio"] {
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;
@@ -105,15 +105,15 @@ body::-webkit-scrollbar {
   border-radius: 50%;
 }
 
-.visually-hidden {
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+// .visually-hidden {
+//   clip: rect(0, 0, 0, 0);
+//   clip-path: inset(50%);
+//   height: 1px;
+//   overflow: hidden;
+//   position: absolute;
+//   white-space: nowrap;
+//   width: 1px;
+// }
 
 .st1 {
   stroke-dasharray: 6000px;

@@ -87,6 +87,7 @@ body::-webkit-scrollbar {
   display: flex;
   gap: calc(1 * var(--gap-small));
   width: fit-content;
+  ;
   padding: 1rem 4rem;
   margin-inline: auto;
 
@@ -96,7 +97,7 @@ body::-webkit-scrollbar {
   // border-radius: 0 0
 }
 
-.theme-picker input[type="checkbox"] {
+.theme-picker input[type="radio"] {
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;

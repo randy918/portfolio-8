@@ -3,11 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 :root {
-  --clr-body-bg: hsl(0 0% 90%);
-  --clr-card-bg: hsl(0 0% 100%);
-  --clr-text: hsl(0 0% 15%);
-  --clr-heading: hsl(0 0% 25%);
 
+not c1r-body-bg: hs1(0 0% 90%) ; --clr-card-bg: hs1(0 0% 100%); --clr-text: hs1(0 0% 15%) ; --clr-heading: hs1(0 0% 25%);
+  
   --border-radius: 0.5rem;
   --border-radius-small: 0.25rem;
   --width-max: 75vw;
@@ -271,7 +269,7 @@ nav {
       // height: 5rem;
       background-color: yellow;
       background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
-      background-repeat: no-repeat;
+            background-repeat: no-repeat;
       background-size: cover;
       background-position: upper right;
     }
@@ -284,10 +282,11 @@ nav {
 
       // height: 7rem;
       background-color: green;
-      background-image: url("../images/shutterstock_2272269211-LARGE.jpg");
-      background-repeat: no-repeat;
+           background-image: url("../images/shutterstock_2272269211-LARGE.jpg");
+            background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      
     }
     &--14 {
       display: flex;
@@ -297,10 +296,11 @@ nav {
 
       // height: 7rem;
       background-color: green;
-      background-image: url("../images/shutterstock_80566984-LARGE.jpg");
-      background-repeat: no-repeat;
+           background-image: url("../images/shutterstock_80566984-LARGE.jpg");
+            background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      
     }
     &--15 {
       display: flex;
@@ -310,10 +310,11 @@ nav {
 
       // height: 7rem;
       background-color: green;
-      background-image: url("../images/shutterstock_400953256-LARGE.jpg");
-      background-repeat: no-repeat;
+           background-image: url("../images/shutterstock_400953256-LARGE.jpg");
+            background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom;
+      
     }
     &--16 {
       display: flex;
@@ -323,10 +324,11 @@ nav {
 
       // height: 7rem;
       background-color: green;
-      background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
-      background-repeat: no-repeat;
+           background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
+            background-repeat: no-repeat;
       background-size: cover;
       background-position: 20% 20%;
+      
     }
   }
 }

@@ -79,11 +79,9 @@ body::-webkit-scrollbar {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  color: white;
-  outline: 3px solid;
-  border-radius: 50%;
+  width: 1, 5rem;
+  height: 1, 5rem;
+  border: 3px solid;
 }
 
 .visually-hidden {
@@ -169,7 +167,7 @@ nav {
 .nav3 {
   display: flex;
   justify-content: begin;
-  gap: var(--gap-small);
+  gap: var(--gap);
   align-items: flex-start;
   flex-direction: row;
   color: var(--type-color-one);
@@ -485,4 +483,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-} /*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index_20230919210213.css.map */

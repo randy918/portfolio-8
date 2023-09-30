@@ -7,7 +7,6 @@
   --background-color--cell: rgb(33, 33, 33);
   --gap: 2rem;
   --gap-big: 3rem;
-  --gap-small: 1rem;
   --type-color-one: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
   --font-size-400: 1rem;
@@ -68,22 +67,9 @@ body::-webkit-scrollbar {
 .theme-picker > fieldset {
   border: 0;
   display: flex;
-  gap: calc(1 * var(--gap-small));
+  gap: var(--gap-big);
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1rem 4rem;
-  margin-inline: auto;
-}
-
-.theme-picker input[type=radio] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  color: white;
-  outline: 3px solid;
-  border-radius: 50%;
 }
 
 .visually-hidden {
@@ -169,7 +155,7 @@ nav {
 .nav3 {
   display: flex;
   justify-content: begin;
-  gap: var(--gap-small);
+  gap: var(--gap);
   align-items: flex-start;
   flex-direction: row;
   color: var(--type-color-one);
@@ -485,4 +471,4 @@ footer {
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius);
   width: var(--width-max);
-} /*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index_20230919204801.css.map */

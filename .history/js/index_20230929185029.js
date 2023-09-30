@@ -18,5 +18,3 @@ const main = function () {
 };
 main();
 
-//! MAIN PROGRAM
-

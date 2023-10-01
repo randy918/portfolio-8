@@ -10,10 +10,33 @@
   --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(40, 40, 40);
 
-  --clr-body-bg: hsl(0 0% 90%);
-  --clr-card-bg: hsl(0 0% 100%);
-  --clr-text: hsl(0 0% 15%);
-  --clr-heading: hsl(0 0% 25%);
+  --color-body-bg: hsl(0 0% 90%);
+  --color-card-bg: hsl(0 0% 100%);
+  --color-text: hsl(0 0% 15%);
+  --color-heading: hsl(0 0% 25%);
+
+  --color-bbb-blue: rgb(22, 76, 139);
+  --color-bbb-red: rgb(234, 31, 82);
+  --color-bbb-white: rgb(240, 227, 213);
+
+  --color-logo-background: var(--color-bbb-white);
+  --color-logo-basis: var(--color-bbb-blue);
+  --color-logo-type1: var(--color-bbb-blue);
+  --color-logo-type2:var(--color-bbb-red);
+  --color-logo-panel: rgb(185, 201, 220);
+
+  --color-mod-background: rgb(226, 223, 216);
+  --color-mod-basis: rgb(188, 165, 144);
+  --color-mod-type1: rgb(141, 58, 58);
+  --color-mod-type2:rgb(51, 67, 86);
+  --color-mod-panel: rgb(188, 199, 203);
+
+  --color-dark-background: rgb(40, 40, 40);
+  --color-dark-basis: rgb(24, 24, 24);
+  --color-dark-type1: rgb(170, 170, 170);
+  --color-dark-type2:rgb(210, 210, 210);
+  --color-dark-panel: rgb(105, 105, 105);
+
 
   --font-size-small: 1rem;
   --font-size-default: 1.25rem;
@@ -115,15 +138,15 @@ background-color: var(--radio-color);
 }
 
 .theme-picker input[type="radio"]#theme-modern {
---radio-color: pink;
+--radio-color: var(--color-mod-basis);
 }
 
 .theme-picker input[type="radio"]#theme-bbb {
---radio-color: blue;
+--radio-color: var(--color-bbb-blue);
 }
 
 .theme-picker input[type="radio"]#theme-dark {
---radio-color: red;
+--radio-color: var(--color-dark-panel);
 }
 
 .visually-hidden {

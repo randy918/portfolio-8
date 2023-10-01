@@ -84,10 +84,14 @@ body::-webkit-scrollbar {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  width: 1.75rem;
-  height: 1.75rem;
-  border: 3px solid var(--radio-color, currentColor);
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: 3px solid var(--radio-color, currentColor);
   border-radius: 50%;
+}
+
+.theme-picker input[type=radio]:checked {
+  background-color: var(--radio-color);
 }
 
 .theme-picker input[type=radio]#theme-modern {

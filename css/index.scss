@@ -100,27 +100,29 @@ body::-webkit-scrollbar {
 
 .theme-picker input[type="radio"] {
   appearance: none;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
   // color: white;
-  border: 3px solid var(--radio-color, currentColor);
+  outline: 3px solid var(--radio-color, currentColor);
   border-radius: 50%;
 }
 
+.theme-picker input[type="radio"]:checked {
+
+background-color: var(--radio-color);
+
+}
+
 .theme-picker input[type="radio"]#theme-modern {
-
 --radio-color: pink;
-
 }
+
 .theme-picker input[type="radio"]#theme-bbb {
-
 --radio-color: blue;
-
 }
+
 .theme-picker input[type="radio"]#theme-dark {
-
 --radio-color: red;
-
 }
 
 .visually-hidden {

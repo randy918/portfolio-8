@@ -10,10 +10,12 @@
   --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(40, 40, 40);
 
+
   --color-body-bg: hsl(0 0% 90%);
   --color-card-bg: hsl(0 0% 100%);
   --color-text: hsl(0 0% 15%);
   --color-heading: hsl(0 0% 25%);
+
 
   --color-bbb-blue: rgb(22, 76, 139);
   --color-bbb-red: rgb(234, 31, 82);
@@ -80,7 +82,7 @@
 
 body {
   margin-top: var(--gap-big);
-  background-color: var(--background-color--default);
+  // background-color: var(--background-color--default);
 }
 
 h1 {
@@ -147,6 +149,24 @@ background-color: var(--radio-color);
 
 .theme-picker input[type="radio"]#theme-dark {
 --radio-color: var(--color-dark-panel);
+}
+
+:root:has(#theme-modern:checked) {
+
+ background-color: var(--color-mod-basis);
+
+}
+
+:root:has(#theme-bbb:checked) {
+
+ background-color: var(--color-bbb-basis);
+
+}
+
+:root:has(#theme-dark:checked) {
+
+ background-color: var(--color-dark-basis);
+
 }
 
 .visually-hidden {

@@ -62,7 +62,6 @@
 
 body {
   margin-top: var(--gap-big);
-  background-color: var(--background-color--default);
 }
 
 h1 {
@@ -123,6 +122,18 @@ body::-webkit-scrollbar {
 
 .theme-picker input[type=radio]#theme-dark {
   --radio-color: var(--color-dark-panel);
+}
+
+:root:has(#theme-modern:checked) {
+  background-color: var(--color-mod-basis);
+}
+
+:root:has(#theme-bbb:checked) {
+  background-color: var(--color-bbb-basis);
+}
+
+:root:has(#theme-dark:checked) {
+  background-color: var(--color-dark-basis);
 }
 
 .visually-hidden {

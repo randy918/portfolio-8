@@ -3,11 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 :root {
-  --clr-body-bg: hsl(0 0% 90%);
-  --clr-card-bg: hsl(0 0% 100%);
-  --clr-text: hsl(0 0% 15%);
-  --clr-heading: hsl(0 0% 25%);
-
   --border-radius: 0.5rem;
   --border-radius-small: 0.25rem;
   --width-max: 75vw;
@@ -15,19 +10,26 @@
   --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(40, 40, 40);
 
-  --gap: 2rem;
-  --gap-big: 3rem;
-  --gap-small: 1rem;
-
-  --type-color-default: rgb(170, 170, 170);
-  --type-color-two: rgb(61, 61, 61);
+  --clr-body-bg: hsl(0 0% 90%);
+  --clr-card-bg: hsl(0 0% 100%);
+  --clr-text: hsl(0 0% 15%);
+  --clr-heading: hsl(0 0% 25%);
 
   --font-size-small: 1rem;
   --font-size-default: 1.25rem;
   --font-size-900: 1.5rem;
   --font-size-ultra: 3.25rem;
 
+  --gap: 2rem;
+  --gap-big: 3rem;
+  --gap-small: 1rem;
+
   --padding-top: 10rem 0 0;
+
+  --radio-color: white; 
+
+  --type-color-default: rgb(170, 170, 170);
+  --type-color-two: rgb(61, 61, 61);
 }
 
 //!  SETUP
@@ -96,13 +98,29 @@ body::-webkit-scrollbar {
   // border-radius: 0 0
 }
 
-.theme-picker input[type="checkbox"] {
+.theme-picker input[type="radio"] {
   appearance: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  color: white;
-  outline: 3px solid;
+  width: 1.75rem;
+  height: 1.75rem;
+  // color: white;
+  border: 3px solid var(--radio-color, currentColor);
   border-radius: 50%;
+}
+
+.theme-picker input[type="radio"]#theme-modern {
+
+--radio-color: pink;
+
+}
+.theme-picker input[type="radio"]#theme-bbb {
+
+--radio-color: blue;
+
+}
+.theme-picker input[type="radio"]#theme-dark {
+
+--radio-color: red;
+
 }
 
 .visually-hidden {

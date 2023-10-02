@@ -154,18 +154,24 @@ background-color: var(--radio-color);
 :root:has(#theme-modern:checked) {
 
  background-color: var(--color-mod-basis);
+   --background-color--cell: var(--color-mod-background);
+
 
 }
 
 :root:has(#theme-bbb:checked) {
 
- background-color: var(--color-bbb-basis);
+ background-color: var(--color-bbb-blue);
+   --background-color--cell: rgb(40, 40, 40);
+
 
 }
 
 :root:has(#theme-dark:checked) {
 
  background-color: var(--color-dark-basis);
+   --background-color--cell: rgb(40, 40, 40);
+
 
 }
 

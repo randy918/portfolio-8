@@ -27,6 +27,7 @@
   --color-dark-type1: rgb(170, 170, 170);
   --color-dark-type2:rgb(210, 210, 210);
   --color-dark-panel: rgb(105, 105, 105);
+  --font-family: "Fira Sans", sans-serif;
   --font-size-small: 1rem;
   --font-size-default: 1.25rem;
   --font-size-900: 1.5rem;
@@ -60,7 +61,7 @@
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-family);
   margin-top: var(--gap-big);
 }
 
@@ -136,7 +137,7 @@ body::-webkit-scrollbar {
 
 :root:has(#theme-dark:checked) {
   background-color: var(--color-dark-basis);
-  --background-color--cell: rgb(40, 40, 40);
+  --background-color--cell: rgb(24, 24, 24);
 }
 
 .visually-hidden {
@@ -176,7 +177,6 @@ nav {
   flex-direction: row;
   color: var(--type-color-default);
   background-color: var(--background-color--cell);
-  font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
   padding: calc(var(--gap) * 0);
@@ -226,7 +226,6 @@ nav {
   flex-direction: row;
   color: var(--type-color-default);
   background-color: var(--background-color--cell);
-  font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
   padding: calc(var(--gap) * 0);
@@ -568,9 +567,8 @@ main {
 footer {
   display: flex;
   color: var(--type-color-default);
-  font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: var(--font-size-ultra);
+  font-size: var(--font-size-5);
   padding: 2vw;
   margin: 0 auto;
   margin-top: 2.5vw;

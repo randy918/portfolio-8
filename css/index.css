@@ -57,10 +57,10 @@
 * dl,
 * dd {
   margin: 0;
-  font-family: "Fira Sans", sans-serif;
 }
 
 body {
+  font-family: var(--font-sans);
   margin-top: var(--gap-big);
 }
 
@@ -159,7 +159,6 @@ body::-webkit-scrollbar {
 nav {
   display: flex;
   color: var(--type-color-default);
-  font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
   padding: var(--gap);

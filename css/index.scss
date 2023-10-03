@@ -75,12 +75,13 @@
 * dl,
 * dd {
   margin: 0;
-  font-family: "Fira Sans", sans-serif;
+ 
 }
 
 //! BASIC
 
 body {
+  font-family: var(--font-sans);
   margin-top: var(--gap-big);
   // background-color: var(--background-color--default);
 }
@@ -196,7 +197,7 @@ background-color: var(--radio-color);
 nav {
   display: flex;
   color: var(--type-color-default);
-  font-family: "Fira Sans", sans-serif;
+  // font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: var(--font-size-ultra);
   padding: var(--gap);

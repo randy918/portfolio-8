@@ -9,13 +9,12 @@
 
   --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(40, 40, 40);
-
+  --background-color--for-nav: rgb(24, 24, 24);
 
   --color-body-bg: hsl(0 0% 90%);
   --color-card-bg: hsl(0 0% 100%);
   --color-text: hsl(0 0% 15%);
   --color-heading: hsl(0 0% 25%);
-
 
   --color-bbb-blue: rgb(22, 76, 139);
   --color-bbb-red: rgb(234, 31, 82);
@@ -24,26 +23,26 @@
   --color-logo-background: var(--color-bbb-white);
   --color-logo-basis: var(--color-bbb-blue);
   --color-logo-type1: var(--color-bbb-blue);
-  --color-logo-type2:var(--color-bbb-red);
+  --color-logo-type2: var(--color-bbb-red);
   --color-logo-panel: rgb(185, 201, 220);
 
   --color-mod-background: rgb(226, 223, 216);
   --color-mod-basis: rgb(188, 165, 144);
   --color-mod-type1: rgb(141, 58, 58);
-  --color-mod-type2:rgb(51, 67, 86);
+  --color-mod-type2: rgb(51, 67, 86);
   --color-mod-panel: rgb(188, 199, 203);
 
   --color-dark-background: rgb(40, 40, 40);
   --color-dark-basis: rgb(24, 24, 24);
   --color-dark-type1: rgb(170, 170, 170);
-  --color-dark-type2:rgb(210, 210, 210);
+  --color-dark-type2: rgb(210, 210, 210);
   --color-dark-panel: rgb(105, 105, 105);
 
   --font-family: "Fira Sans", sans-serif;
 
   --font-size-small: 1rem;
   --font-size-default: 1.25rem;
-  --font-size-900: 1.5rem;
+  --font-size-large: 1.5rem;
   --font-size-ultra: 3.25rem;
 
   --gap: 2rem;
@@ -52,7 +51,7 @@
 
   --padding-top: 10rem 0 0;
 
-  --radio-color: white; 
+  --radio-color: white;
 
   --type-color-default: rgb(170, 170, 170);
   --type-color-two: rgb(61, 61, 61);
@@ -76,7 +75,6 @@
 * dl,
 * dd {
   margin: 0;
- 
 }
 
 //! BASIC
@@ -137,45 +135,33 @@ body::-webkit-scrollbar {
 }
 
 .theme-picker input[type="radio"]:checked {
-
-background-color: var(--radio-color);
-
+  background-color: var(--radio-color);
 }
 
 .theme-picker input[type="radio"]#theme-modern {
---radio-color: var(--color-mod-basis);
+  --radio-color: var(--color-mod-basis);
 }
 
 .theme-picker input[type="radio"]#theme-bbb {
---radio-color: var(--color-bbb-blue);
+  --radio-color: var(--color-bbb-blue);
 }
 
 .theme-picker input[type="radio"]#theme-dark {
---radio-color: var(--color-dark-panel);
+  --radio-color: var(--color-dark-panel);
 }
 
+//! COLOR SWITCHING IS HERE
 :root:has(#theme-modern:checked) {
-
- background-color: var(--color-mod-basis);
-   --background-color--cell: var(--color-mod-background);
-
-
+  background-color: var(--color-mod-basis);
+  --background-color--cell: var(--color-mod-background);
 }
-
 :root:has(#theme-bbb:checked) {
-
- background-color: var(--color-bbb-blue);
-   --background-color--cell: rgb(40, 40, 40);
-
-
+  background-color: var(--color-bbb-blue);
+  --background-color--cell: rgb(40, 40, 40);
 }
-
 :root:has(#theme-dark:checked) {
-
- background-color: var(--color-dark-basis);
-   --background-color--cell: rgb(24, 24, 24);
-
-
+  background-color: var(--color-dark-basis);
+  --background-color--cell: rgb(40, 40, 40);
 }
 
 .visually-hidden {
@@ -309,6 +295,19 @@ nav {
 
   border-radius: var(--border-radius);
   width: calc(var(--width-max) + 3.5rem);
+
+//   :root:has(#theme-modern:checked) {
+//   background-color: red;
+//   --background-color--cell: red;
+// }
+// :root:has(#theme-bbb:checked) {
+//   background-color: var(--color-bbb-blue);
+//   --background-color--cell: rgb(40, 40, 40);
+// }
+// :root:has(#theme-dark:checked) {
+//   background-color: var(--color-dark-basis);
+//   --background-color--cell: rgb(40, 40, 40);
+// }
 
   &__item {
     display: flex;

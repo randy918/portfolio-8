@@ -57,6 +57,22 @@
   --type-color-two: rgb(61, 61, 61);
 }
 
+//! COLOR SWITCHING IS HERE
+:root:has(#theme-modern:checked) {
+  background-color: var(--color-mod-basis);
+  --background-color--cell: var(--color-mod-background);
+
+  
+}
+:root:has(#theme-bbb:checked) {
+  background-color: var(--color-bbb-blue);
+  --background-color--cell: rgb(40, 40, 40);
+}
+:root:has(#theme-dark:checked) {
+  background-color: var(--color-dark-basis);
+  --background-color--cell: rgb(40, 40, 40);
+}
+
 //!  SETUP
 
 * *::before,
@@ -148,20 +164,6 @@ body::-webkit-scrollbar {
 
 .theme-picker input[type="radio"]#theme-dark {
   --radio-color: var(--color-dark-panel);
-}
-
-//! COLOR SWITCHING IS HERE
-:root:has(#theme-modern:checked) {
-  background-color: var(--color-mod-basis);
-  --background-color--cell: var(--color-mod-background);
-}
-:root:has(#theme-bbb:checked) {
-  background-color: var(--color-bbb-blue);
-  --background-color--cell: rgb(40, 40, 40);
-}
-:root:has(#theme-dark:checked) {
-  background-color: var(--color-dark-basis);
-  --background-color--cell: rgb(40, 40, 40);
 }
 
 .visually-hidden {
@@ -281,7 +283,7 @@ nav {
   flex-direction: row;
   //! row(default) row-reverse column column-reverse
   color: var(--type-color-default);
-  background-color: var(--background-color--cell);
+  // background-color: var(--background-color--cell);
 
   // font-family: "Fira Sans", sans-serif;
   font-weight: 700;
@@ -296,18 +298,20 @@ nav {
   border-radius: var(--border-radius);
   width: calc(var(--width-max) + 3.5rem);
 
-//   :root:has(#theme-modern:checked) {
-//   background-color: red;
-//   --background-color--cell: red;
-// }
-// :root:has(#theme-bbb:checked) {
-//   background-color: var(--color-bbb-blue);
-//   --background-color--cell: rgb(40, 40, 40);
-// }
-// :root:has(#theme-dark:checked) {
-//   background-color: var(--color-dark-basis);
-//   --background-color--cell: rgb(40, 40, 40);
-// }
+ 
+
+  //   :root:has(#theme-modern:checked) {
+  //   background-color: red;
+  //   --background-color--cell: red;
+  // }
+  // :root:has(#theme-bbb:checked) {
+  //   background-color: var(--color-bbb-blue);
+  //   --background-color--cell: rgb(40, 40, 40);
+  // }
+  // :root:has(#theme-dark:checked) {
+  //   background-color: var(--color-dark-basis);
+  //   --background-color--cell: rgb(40, 40, 40);
+  // }
 
   &__item {
     display: flex;

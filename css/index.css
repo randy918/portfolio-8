@@ -259,7 +259,7 @@ nav {
   align-self: flex-start;
   flex-grow: 1;
   background-color: yellow;
-  background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
+  background-image: url(../images/shutterstock_2166726283-MEDIUM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: upper right;

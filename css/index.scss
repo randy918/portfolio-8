@@ -564,7 +564,8 @@ nav {
   font-size: 1.5rem;
   margin: 5px;
   margin: 0 auto;
-
+  margin-top: var(--gap);
+  border-radius: var(--border-radius);
   width: calc(var(--width-max) + 3.5rem);
 
   //  background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
@@ -578,7 +579,7 @@ nav {
   background: lime;
   flex: 1 1 auto;
   height: auto;
-  margin: 5px;
+  // margin: 5px;
 }
 
 .flex-column {

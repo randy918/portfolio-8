@@ -61,8 +61,6 @@
 :root:has(#theme-modern:checked) {
   background-color: var(--color-mod-basis);
   --background-color--cell: var(--color-mod-background);
-
-  
 }
 :root:has(#theme-bbb:checked) {
   background-color: var(--color-bbb-blue);
@@ -298,8 +296,6 @@ nav {
   border-radius: var(--border-radius);
   width: calc(var(--width-max) + 3.5rem);
 
- 
-
   //   :root:has(#theme-modern:checked) {
   //   background-color: red;
   //   --background-color--cell: red;
@@ -416,6 +412,199 @@ nav {
 .nav3__item12 {
   background-color: green;
 }
+.nav4 {
+  //! CRITICAL FLEX BOX PARAMETERS Ideal
+  display: flex;
+  justify-content: begin;
+  gap: var(--gap-small);
+  //! (horizontal) flex-start flex-end center space-between space-around space-evenly
+  align-items: flex-start;
+  //! (vertical) flex-start flex-end center space-between space-around space-evenly
+  flex-direction: row;
+  //! row(default) row-reverse column column-reverse
+  color: var(--type-color-default);
+  // background-color: var(--background-color--cell);
+
+  // font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: var(--font-size-ultra);
+
+  padding: calc(var(--gap) * 0);
+  padding-left: calc(var(--gap) * 0);
+  padding-right: calc(var(--gap) * 0);
+  margin: 0 auto;
+  margin-top: var(--gap);
+
+  border-radius: var(--border-radius);
+  width: calc(var(--width-max) + 3.5rem);
+
+  //   :root:has(#theme-modern:checked) {
+  //   background-color: red;
+  //   --background-color--cell: red;
+  // }
+  // :root:has(#theme-bbb:checked) {
+  //   background-color: var(--color-bbb-blue);
+  //   --background-color--cell: rgb(40, 40, 40);
+  // }
+  // :root:has(#theme-dark:checked) {
+  //   background-color: var(--color-dark-basis);
+  //   --background-color--cell: rgb(40, 40, 40);
+  // }
+
+  &__item {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: red;
+
+    &--11 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+      //! flex-basis: 0; to adjust starting size before flex-grow
+
+      // height: 3rem;
+      background-color: green;
+      background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      // //! top left 50% for example
+      // padding: 8rem 0 0;
+      // padding-top: var(--gap-big);
+      // padding-bottom: var(--gap-big);
+
+      border-radius: var(--border-radius-small);
+    }
+
+    &--12 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 5rem;
+      background-color: yellow;
+      background-image: url(../images/shutterstock_2166726283-MEDIUM.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: upper right;
+    }
+
+    &--13 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 7rem;
+      background-color: green;
+      background-image: url("../images/shutterstock_2272269211-LARGE.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &--14 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 7rem;
+      background-color: green;
+      background-image: url("../images/shutterstock_80566984-LARGE.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &--15 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 7rem;
+      background-color: green;
+      background-image: url("../images/shutterstock_400953256-LARGE.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+    &--16 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-self: flex-start;
+      flex-grow: 1;
+
+      // height: 7rem;
+      background-color: green;
+      background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 20% 20%;
+    }
+  }
+}
+
+.nav4__item {
+}
+
+.nav4__item11 {
+}
+.nav4__item12 {
+  background-color: green;
+}
+
+//! ANOTHER CARD TEST 10-07-23-1138
+
+.flex-container {
+  display: flex;
+  background: blue;
+  color: gray;
+  font-size: 1.5rem;
+  margin: 5px;
+  //  background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
+  //     background-repeat: no-repeat;
+  //     background-size: cover;
+  //     background-position: center;
+}
+
+.flex-row {
+  display: flex;
+  background: lime;
+  flex: 1 1 auto;
+  height: auto;
+  margin: 5px;
+}
+
+.flex-column {
+  display: flex;
+  background: red;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: auto;
+  margin: 5px;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-nested-row {
+  display: flex;
+  background: darkorange;
+  flex: 1 1 auto;
+  margin: 5px;
+}
+
+.flex-nested-column {
+  display: flex;
+  background: yellow;
+  flex: 1 1 auto;
+  margin: 5px;
+}
+
 //! CARD FLEX TEST 9-16-23-1536
 .card1 {
   // display: flex;

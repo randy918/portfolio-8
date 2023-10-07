@@ -559,7 +559,6 @@ nav {
 
 .flex-container {
   display: flex;
-  background: blue;
   color: gray;
   font-size: 1.5rem;
   margin: 5px;
@@ -576,7 +575,6 @@ nav {
 
 .flex-row {
   display: flex;
-  background: lime;
   flex: 1 1 auto;
   height: auto;
   // margin: 5px;
@@ -589,6 +587,7 @@ nav {
   flex-direction: column;
   height: auto;
   margin: 5px;
+  gap: var(--gap);
 }
 
 .flex-center {

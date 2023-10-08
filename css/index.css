@@ -452,9 +452,51 @@ nav {
   flex: 1 1 auto;
   margin: 5px;
 }
+.flex-nested-column-611 {
+  background-color: green;
+  background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex-nested-column-621 {
+  background-color: green;
+  background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex-nested-column-631 {
+  background-color: green;
+  background-image: url("../images/shutterstock_2272269211-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex-nested-column-641 {
+  background-color: green;
+  background-image: url("../images/shutterstock_80566984-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex-nested-column-651 {
+  background-color: green;
+  background-image: url("../images/shutterstock_400953256-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.flex-nested-column-661 {
+  background-color: green;
+  background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .card1 {
-  background-image: url("../images/shutterstock_80566984-LARGE.jpg");
+  background-image: url("../images/");
   background-size: cover;
   background-position: center;
   border-radius: var(--border-radius-small);

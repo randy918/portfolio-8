@@ -565,7 +565,7 @@ nav {
   margin: 0 auto;
   margin-top: var(--gap);
   border-radius: var(--border-radius);
-  width: calc(var(--width-max) + 3.5rem);
+  width: calc(var(--width-max) + 5rem);
 
   //  background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
   //     background-repeat: no-repeat;
@@ -582,12 +582,12 @@ nav {
 
 .flex-column {
   display: flex;
-  background: red;
   flex: 1 1 auto;
   flex-direction: column;
-  height: auto;
+  height: 16vw;
   margin: 5px;
-  gap: var(--gap);
+  
+  gap: 0;
 }
 
 .flex-center {
@@ -606,7 +606,8 @@ nav {
   display: flex;
   background: yellow;
   flex: 1 1 auto;
-  margin: 5px;
+    border-radius: var(--border-radius);
+
 
   &-611 {
 

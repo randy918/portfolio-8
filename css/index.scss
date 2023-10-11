@@ -559,11 +559,13 @@ nav {
 
 .flex-container {
   display: flex;
+  
   color: gray;
   font-size: 1.5rem;
   margin: 5px;
   margin: 0 auto;
   margin-top: var(--gap);
+  
   border-radius: var(--border-radius);
   width: calc(var(--width-max) + 5rem);
 
@@ -582,7 +584,7 @@ nav {
 
 .flex-column {
   display: flex;
-  flex: 1 1 auto;
+  flex: 1;
   flex-direction: column;
   height: 16vw;
   margin: 5px;
@@ -591,8 +593,8 @@ nav {
 }
 
 .flex-center {
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 .flex-nested-row {

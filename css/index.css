@@ -426,7 +426,7 @@ nav {
 
 .flex-column {
   display: flex;
-  flex: 1 1 auto;
+  flex: 1;
   flex-direction: column;
   height: 16vw;
   margin: 5px;
@@ -434,8 +434,8 @@ nav {
 }
 
 .flex-center {
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 
 .flex-nested-row {

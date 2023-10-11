@@ -46,15 +46,24 @@
   background-color: var(--color-mod-basis);
   --background-color--cell: var(--color-mod-background);
 }
+:root:has(#theme-modern:checked) h2 {
+  color: black;
+}
 
 :root:has(#theme-bbb:checked) {
   background-color: var(--color-bbb-blue);
   --background-color--cell: rgb(40, 40, 40);
 }
+:root:has(#theme-bbb:checked) h2 {
+  color: white;
+}
 
 :root:has(#theme-dark:checked) {
   background-color: var(--color-dark-basis);
   --background-color--cell: rgb(40, 40, 40);
+}
+:root:has(#theme-dark:checked) h2 {
+  color: white;
 }
 
 * *::before,
@@ -447,7 +456,6 @@ nav {
 
 .flex-nested-column {
   display: flex;
-  background: yellow;
   flex-grow: 1;
   border-radius: var(--border-radius-small);
 }

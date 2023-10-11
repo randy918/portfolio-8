@@ -586,7 +586,7 @@ nav {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 16vw;
+  height: 9vw;
   margin: 5px;
   
   gap: 0;
@@ -607,12 +607,12 @@ nav {
 .flex-nested-column {
   display: flex;
   background: yellow;
-  flex: 1 1 auto;
-    border-radius: var(--border-radius);
+  // flex: 1 1 auto;
+  flex-grow: 1;
+    border-radius: var(--border-radius-small);
 
 
   &-611 {
-
 background-color: green;
       background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -620,8 +620,14 @@ background-color: green;
       background-position: center;
 
   }
-  &-621 {
 
+  &-612 {
+
+flex-grow: 0;
+
+  }
+
+  &-621 {
 background-color: green;
       background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -629,8 +635,15 @@ background-color: green;
       background-position: center;
 
   }
-  &-631 {
 
+  &-622 {
+
+flex-grow: 0;
+
+  }
+
+
+  &-631 {
 background-color: green;
       background-image: url("../images/shutterstock_2272269211-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -638,8 +651,15 @@ background-color: green;
       background-position: center;
 
   }
-  &-641 {
 
+  &-632 {
+
+flex-grow: 0;
+
+  }
+
+
+  &-641 {
 background-color: green;
       background-image: url("../images/shutterstock_80566984-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -647,8 +667,15 @@ background-color: green;
       background-position: center;
 
   }
-  &-651 {
 
+  &-642 {
+
+flex-grow: 0;
+
+  }
+
+
+  &-651 {
 background-color: green;
       background-image: url("../images/shutterstock_400953256-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -657,8 +684,14 @@ background-color: green;
 
   }
 
-  &-661 {
+  &-652 {
 
+flex-grow: 0;
+
+  }
+
+
+  &-661 {
 background-color: green;
       background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
       background-repeat: no-repeat;
@@ -666,6 +699,13 @@ background-color: green;
       background-position: center;
 
   }
+
+  &-662 {
+
+flex-grow: 0;
+
+  }
+
 }
 
 

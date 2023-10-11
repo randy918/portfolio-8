@@ -428,7 +428,7 @@ nav {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 16vw;
+  height: 9vw;
   margin: 5px;
   gap: 0;
 }
@@ -448,8 +448,8 @@ nav {
 .flex-nested-column {
   display: flex;
   background: yellow;
-  flex: 1 1 auto;
-  border-radius: var(--border-radius);
+  flex-grow: 1;
+  border-radius: var(--border-radius-small);
 }
 .flex-nested-column-611 {
   background-color: green;
@@ -458,12 +458,18 @@ nav {
   background-size: cover;
   background-position: center;
 }
+.flex-nested-column-612 {
+  flex-grow: 0;
+}
 .flex-nested-column-621 {
   background-color: green;
   background-image: url("../images/shutterstock_2166726283-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.flex-nested-column-622 {
+  flex-grow: 0;
 }
 .flex-nested-column-631 {
   background-color: green;
@@ -472,12 +478,18 @@ nav {
   background-size: cover;
   background-position: center;
 }
+.flex-nested-column-632 {
+  flex-grow: 0;
+}
 .flex-nested-column-641 {
   background-color: green;
   background-image: url("../images/shutterstock_80566984-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.flex-nested-column-642 {
+  flex-grow: 0;
 }
 .flex-nested-column-651 {
   background-color: green;
@@ -486,12 +498,18 @@ nav {
   background-size: cover;
   background-position: center;
 }
+.flex-nested-column-652 {
+  flex-grow: 0;
+}
 .flex-nested-column-661 {
   background-color: green;
   background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.flex-nested-column-662 {
+  flex-grow: 0;
 }
 
 .card1 {

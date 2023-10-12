@@ -1,6 +1,6 @@
 //! VARIABLES
 
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 :root {
   --border-radius: 0.5rem;
@@ -44,6 +44,10 @@
   --font-size-default: 1.25rem;
   --font-size-large: 1.5rem;
   --font-size-ultra: 3.25rem;
+
+  --font-weight-small: 300;
+  --font-weight-default: 700;
+  --font-weight-large: 900;
 
   --gap: 2rem;
   --gap-big: 3rem;
@@ -123,6 +127,9 @@ h1 {
 h2 {
   font-size: var(--font-size-small);
   color: var(--type-color-default);
+  font-weight: var(--font-weight-small);
+  line-height: 1.5rem;
+  letter-spacing: -.05rem;
 }
 
 h3 {
@@ -601,7 +608,7 @@ nav {
   display: flex;
   flex: 1;
   flex-direction: column;
-  height: 9vw;
+  height: 8vw;
   margin: 5px;
   
   gap: 0;

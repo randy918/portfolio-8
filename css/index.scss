@@ -151,7 +151,7 @@ body::-webkit-scrollbar {
   display: flex;
   gap: calc(1 * var(--gap-small));
   width: fit-content;
-  padding: 1rem 4rem;
+  padding: 1vw 4vw;
   margin-inline: auto;
 
   // background: #ffff;
@@ -162,8 +162,8 @@ body::-webkit-scrollbar {
 
 .theme-picker input[type="radio"] {
   appearance: none;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2vw;
+  height: 2vw;
   // color: white;
   outline: 3px solid var(--radio-color, currentColor);
   outline-offset: 3px;
@@ -214,8 +214,7 @@ nav {
   margin: 0 auto;
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius-small);
-  width: var(--width-max);
-  width: calc(var(--width-max) + 3.75rem);
+  width: calc(var(--width-max) + 4rem);
 
 }
 
@@ -223,7 +222,11 @@ nav {
 display: flex;
 flex-wrap: nowrap;
    align-self: flex-start;
-      flex-grow: 1;
+   height: 7vw;
+   width: 12vw;
+      flex-grow: .4;
+        border-radius: var(--border-radius-small);
+
       background-image: url("../images/10-14-23-1215-building-beauty.png");
       background-repeat: no-repeat;
       background-size: cover;

@@ -178,11 +178,22 @@ nav {
   color: var(--type-color-default);
   font-weight: 700;
   font-size: var(--font-size-ultra);
-  padding: var(--gap);
   margin: 0 auto;
   background-color: var(--background-color--cell);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-small);
   width: var(--width-max);
+  width: calc(var(--width-max) + 3.75rem);
+}
+
+.nav1-pic {
+  display: flex;
+  flex-wrap: nowrap;
+  align-self: flex-start;
+  flex-grow: 1;
+  background-image: url("../images/10-14-23-1215-building-beauty.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .nav2 {
@@ -261,7 +272,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: green;
   background-image: url("../images/shutterstock_1079740604-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,7 +283,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: yellow;
   background-image: url(../images/shutterstock_2166726283-MEDIUM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,7 +293,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: green;
   background-image: url("../images/shutterstock_2272269211-LARGE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,7 +303,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: green;
   background-image: url("../images/shutterstock_80566984-LARGE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -306,7 +313,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: green;
   background-image: url("../images/shutterstock_400953256-LARGE.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -317,7 +323,6 @@ nav {
   flex-wrap: nowrap;
   align-self: flex-start;
   flex-grow: 1;
-  background-color: green;
   background-image: url("../images/shutterstock_149558831-MEDIUM.jpg");
   background-repeat: no-repeat;
   background-size: cover;

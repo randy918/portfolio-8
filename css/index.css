@@ -428,9 +428,9 @@ nav {
   font-size: 1.5rem;
   margin: 5px;
   margin: 0 auto;
-  margin-top: var(--gap);
+  margin-top: var(--gap-small);
   border-radius: var(--border-radius);
-  width: calc(var(--width-max) + 5rem);
+  width: calc(var(--width-max) + 4.5rem);
 }
 
 .flex-row {

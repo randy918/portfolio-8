@@ -29,17 +29,17 @@
   --color-dark-type2: rgb(210, 210, 210);
   --color-dark-panel: rgb(105, 105, 105);
   --font-family: "Fira Sans", sans-serif;
-  --font-size-small: 1rem;
-  --font-size-default: 1.25rem;
-  --font-size-large: 1.5rem;
-  --font-size-ultra: 3.25rem;
+  --font-size-small: 1vw;
+  --font-size-default: 1.25vw;
+  --font-size-large: 1.5vw;
+  --font-size-ultra: 3.25vw;
   --font-weight-small: 300;
   --font-weight-default: 700;
   --font-weight-large: 900;
-  --gap: 2rem;
-  --gap-big: 3rem;
-  --gap-small: 1rem;
-  --gap-smallest: .5rem;
+  --gap: 2vw;
+  --gap-big: 3vw;
+  --gap-small: 1vw;
+  --gap-smallest: .5vw;
   --padding-top: 10rem 0 0;
   --radio-color: white;
   --type-color-default: rgb(170, 170, 170);
@@ -118,6 +118,37 @@ p {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+.social-wrap__facebook {
+  position: absolute;
+  right: 3vw;
+  top: 22vw;
+  width: 6vw;
+  transition: all 300ms ease-out;
+  z-index: 700;
+}
+.social-wrap__facebook--other {
+  top: 6vw;
+}
+.social-wrap__instagram {
+  position: absolute;
+  right: 11vw;
+  top: 22vw;
+  width: 6vw;
+  transition: all 300ms ease-out;
+  z-index: 700;
+}
+.social-wrap__instagram--other {
+  top: 13vw;
+}
+
+.social-instagram {
+  display: flex;
+}
+
+.social-facebook {
+  display: flex;
 }
 
 .theme-picker > fieldset {

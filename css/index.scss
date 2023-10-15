@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 :root {
-  --border-radius: 0.5rem;
-  --border-radius-small: 0.25rem;
+  --border-radius: 0.25vw;
+  --border-radius-small: .5vw;
   --width-max: 82vw;
 
   --background-color--default: rgb(24, 24, 24);
@@ -54,7 +54,7 @@
   --gap-small: 1vw;
   --gap-smallest: .5vw;
 
-  --padding-top: 10rem 0 0;
+  --padding-top: 10vw 0 0;
 
   --radio-color: white;
 
@@ -129,8 +129,8 @@ h2 {
   font-size: 2.5vw;
   color: var(--type-color-default);
   font-weight: var(--font-weight-small);
-  line-height: 1.5rem;
-  letter-spacing: -.05rem;
+  // line-height: 1.5;
+  letter-spacing: -.15vw;
 }
 
 h3 {
@@ -649,7 +649,7 @@ flex-wrap: nowrap;
   display: flex;
   
   color: gray;
-  font-size: 1.5rem;
+  font-size: 5vw;
   margin: 5px;
   margin: 0 auto;
   margin-top: var(--gap-smallest);
@@ -812,7 +812,7 @@ flex-grow: 0;
   max-width: 35ch;
 
   &__content {
-    padding: 1.5em;
+    padding: 1.5vw;
     background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.7) 20%, hsl(0 0% 0% / 1));
   }
 

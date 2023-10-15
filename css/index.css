@@ -2,7 +2,7 @@
 :root {
   --border-radius: 0.5rem;
   --border-radius-small: 0.25rem;
-  --width-max: 75vw;
+  --width-max: 82vw;
   --background-color--default: rgb(24, 24, 24);
   --background-color--cell: rgb(40, 40, 40);
   --background-color--for-nav: rgb(24, 24, 24);
@@ -39,6 +39,7 @@
   --gap: 2rem;
   --gap-big: 3rem;
   --gap-small: 1rem;
+  --gap-smallest: .5rem;
   --padding-top: 10rem 0 0;
   --radio-color: white;
   --type-color-default: rgb(170, 170, 170);
@@ -99,7 +100,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-size-small);
+  font-size: 2.5vw;
   color: var(--type-color-default);
   font-weight: var(--font-weight-small);
   line-height: 1.5rem;
@@ -122,10 +123,11 @@ body::-webkit-scrollbar {
 .theme-picker > fieldset {
   border: 0;
   display: flex;
-  gap: calc(1 * var(--gap-small));
+  gap: 1vw;
   width: -moz-fit-content;
   width: fit-content;
   padding: 1vw 4vw;
+  padding-top: 2vw;
   margin-inline: auto;
 }
 
@@ -181,7 +183,7 @@ nav {
   margin: 0 auto;
   background-color: var(--background-color--cell);
   border-radius: var(--border-radius-small);
-  width: calc(var(--width-max) + 4rem);
+  width: var(--width-max);
 }
 
 .nav1-pic {
@@ -435,9 +437,9 @@ nav {
   font-size: 1.5rem;
   margin: 5px;
   margin: 0 auto;
-  margin-top: var(--gap-small);
+  margin-top: var(--gap-smallest);
   border-radius: var(--border-radius);
-  width: calc(var(--width-max) + 4.5rem);
+  width: 83vw;
 }
 
 .flex-row {
